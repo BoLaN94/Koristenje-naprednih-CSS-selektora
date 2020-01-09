@@ -1,0 +1,26 @@
+a[href^="https://www.google.com"] {
+    color: green;
+    text-decoration: none;
+}
+a[target="_blank"] {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+ }
+#second-div :nth-child(even) {
+    color: red;
+}
+
+#second-div :nth-last-of-type(even) {
+    color: blue;
+}
+
+h2~p::after {
+    content: "-NEW";
+    color: yellow;
+}
+#first-div ~ p:nth-last-of-type(1):hover {
+    font-style: italic;
+}
